@@ -16,6 +16,19 @@
 		60643DF616EF870A006F488A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 60643DF516EF870A006F488A /* Default.png */; };
 		60643DF816EF870A006F488A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60643DF716EF870A006F488A /* Default@2x.png */; };
 		60643DFA16EF870A006F488A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60643DF916EF870A006F488A /* Default-568h@2x.png */; };
+		60643E1116EF8851006F488A /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60643E0116EF8851006F488A /* ConnectionManager.m */; };
+		60643E1216EF8851006F488A /* CSClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 60643E0316EF8851006F488A /* CSClass.m */; };
+		60643E1316EF8851006F488A /* CSClassCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60643E0516EF8851006F488A /* CSClassCell.m */; };
+		60643E1416EF8851006F488A /* CSClassCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60643E0616EF8851006F488A /* CSClassCell.xib */; };
+		60643E1516EF8851006F488A /* CSClassCell~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60643E0716EF8851006F488A /* CSClassCell~iphone.xib */; };
+		60643E1616EF8851006F488A /* CSClassRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 60643E0916EF8851006F488A /* CSClassRegion.m */; };
+		60643E1716EF8851006F488A /* CSClassRegions.m in Sources */ = {isa = PBXBuildFile; fileRef = 60643E0B16EF8851006F488A /* CSClassRegions.m */; };
+		60643E1816EF8851006F488A /* CSScheduleStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 60643E0D16EF8851006F488A /* CSScheduleStore.m */; };
+		60643E1916EF8851006F488A /* CSScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60643E0F16EF8851006F488A /* CSScheduleTableViewController.m */; };
+		60643E1A16EF8851006F488A /* CSScheduleTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60643E1016EF8851006F488A /* CSScheduleTableViewController.xib */; };
+		60643E1D16EF8885006F488A /* separator.png in Resources */ = {isa = PBXBuildFile; fileRef = 60643E1C16EF8885006F488A /* separator.png */; };
+		60643E1F16EF8892006F488A /* buttonbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 60643E1E16EF8892006F488A /* buttonbg.png */; };
+		60643E2216EF88D3006F488A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60643E2116EF88D3006F488A /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +45,28 @@
 		60643DF516EF870A006F488A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		60643DF716EF870A006F488A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		60643DF916EF870A006F488A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		60643E0016EF8851006F488A /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
+		60643E0116EF8851006F488A /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionManager.m; sourceTree = "<group>"; };
+		60643E0216EF8851006F488A /* CSClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSClass.h; sourceTree = "<group>"; };
+		60643E0316EF8851006F488A /* CSClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSClass.m; sourceTree = "<group>"; };
+		60643E0416EF8851006F488A /* CSClassCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSClassCell.h; sourceTree = "<group>"; };
+		60643E0516EF8851006F488A /* CSClassCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSClassCell.m; sourceTree = "<group>"; };
+		60643E0616EF8851006F488A /* CSClassCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSClassCell.xib; sourceTree = "<group>"; };
+		60643E0716EF8851006F488A /* CSClassCell~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CSClassCell~iphone.xib"; sourceTree = "<group>"; };
+		60643E0816EF8851006F488A /* CSClassRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSClassRegion.h; sourceTree = "<group>"; };
+		60643E0916EF8851006F488A /* CSClassRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSClassRegion.m; sourceTree = "<group>"; };
+		60643E0A16EF8851006F488A /* CSClassRegions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSClassRegions.h; sourceTree = "<group>"; };
+		60643E0B16EF8851006F488A /* CSClassRegions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSClassRegions.m; sourceTree = "<group>"; };
+		60643E0C16EF8851006F488A /* CSScheduleStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSScheduleStore.h; sourceTree = "<group>"; };
+		60643E0D16EF8851006F488A /* CSScheduleStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSScheduleStore.m; sourceTree = "<group>"; };
+		60643E0E16EF8851006F488A /* CSScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSScheduleTableViewController.h; sourceTree = "<group>"; };
+		60643E0F16EF8851006F488A /* CSScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSScheduleTableViewController.m; sourceTree = "<group>"; };
+		60643E1016EF8851006F488A /* CSScheduleTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSScheduleTableViewController.xib; sourceTree = "<group>"; };
+		60643E1B16EF887A006F488A /* JSONSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONSerializable.h; sourceTree = "<group>"; };
+		60643E1C16EF8885006F488A /* separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = separator.png; sourceTree = "<group>"; };
+		60643E1E16EF8892006F488A /* buttonbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonbg.png; sourceTree = "<group>"; };
+		60643E2016EF88D3006F488A /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		60643E2116EF88D3006F488A /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +113,29 @@
 		60643DE916EF870A006F488A /* ClassScheduleBNR */ = {
 			isa = PBXGroup;
 			children = (
+				60643E0016EF8851006F488A /* ConnectionManager.h */,
+				60643E0116EF8851006F488A /* ConnectionManager.m */,
 				60643DF216EF870A006F488A /* CSAppDelegate.h */,
 				60643DF316EF870A006F488A /* CSAppDelegate.m */,
+				60643E0216EF8851006F488A /* CSClass.h */,
+				60643E0316EF8851006F488A /* CSClass.m */,
+				60643E0416EF8851006F488A /* CSClassCell.h */,
+				60643E0516EF8851006F488A /* CSClassCell.m */,
+				60643E0616EF8851006F488A /* CSClassCell.xib */,
+				60643E0716EF8851006F488A /* CSClassCell~iphone.xib */,
+				60643E0816EF8851006F488A /* CSClassRegion.h */,
+				60643E0916EF8851006F488A /* CSClassRegion.m */,
+				60643E0A16EF8851006F488A /* CSClassRegions.h */,
+				60643E0B16EF8851006F488A /* CSClassRegions.m */,
+				60643E0C16EF8851006F488A /* CSScheduleStore.h */,
+				60643E0D16EF8851006F488A /* CSScheduleStore.m */,
+				60643E0E16EF8851006F488A /* CSScheduleTableViewController.h */,
+				60643E0F16EF8851006F488A /* CSScheduleTableViewController.m */,
+				60643E1016EF8851006F488A /* CSScheduleTableViewController.xib */,
+				60643E1B16EF887A006F488A /* JSONSerializable.h */,
 				60643DEA16EF870A006F488A /* Supporting Files */,
+				60643E2016EF88D3006F488A /* WebViewController.h */,
+				60643E2116EF88D3006F488A /* WebViewController.m */,
 			);
 			path = ClassScheduleBNR;
 			sourceTree = "<group>";
@@ -88,6 +143,8 @@
 		60643DEA16EF870A006F488A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60643E1E16EF8892006F488A /* buttonbg.png */,
+				60643E1C16EF8885006F488A /* separator.png */,
 				60643DEB16EF870A006F488A /* ClassScheduleBNR-Info.plist */,
 				60643DEC16EF870A006F488A /* InfoPlist.strings */,
 				60643DEF16EF870A006F488A /* main.m */,
@@ -155,6 +212,11 @@
 				60643DF616EF870A006F488A /* Default.png in Resources */,
 				60643DF816EF870A006F488A /* Default@2x.png in Resources */,
 				60643DFA16EF870A006F488A /* Default-568h@2x.png in Resources */,
+				60643E1416EF8851006F488A /* CSClassCell.xib in Resources */,
+				60643E1516EF8851006F488A /* CSClassCell~iphone.xib in Resources */,
+				60643E1A16EF8851006F488A /* CSScheduleTableViewController.xib in Resources */,
+				60643E1D16EF8885006F488A /* separator.png in Resources */,
+				60643E1F16EF8892006F488A /* buttonbg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +229,14 @@
 			files = (
 				60643DF016EF870A006F488A /* main.m in Sources */,
 				60643DF416EF870A006F488A /* CSAppDelegate.m in Sources */,
+				60643E1116EF8851006F488A /* ConnectionManager.m in Sources */,
+				60643E1216EF8851006F488A /* CSClass.m in Sources */,
+				60643E1316EF8851006F488A /* CSClassCell.m in Sources */,
+				60643E1616EF8851006F488A /* CSClassRegion.m in Sources */,
+				60643E1716EF8851006F488A /* CSClassRegions.m in Sources */,
+				60643E1816EF8851006F488A /* CSScheduleStore.m in Sources */,
+				60643E1916EF8851006F488A /* CSScheduleTableViewController.m in Sources */,
+				60643E2216EF88D3006F488A /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

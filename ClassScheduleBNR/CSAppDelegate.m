@@ -7,13 +7,19 @@
 //
 
 #import "CSAppDelegate.h"
+#import "CSScheduleTableViewController.h"
 
 @implementation CSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+    // create the schedule table and set as root
+    CSScheduleTableViewController *stvc = [[CSScheduleTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:stvc];
+    [[self window] setRootViewController:nav];    
+
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
